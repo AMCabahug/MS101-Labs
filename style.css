@@ -1,0 +1,178 @@
+.name {
+    text-align: center;
+}
+.occupation {
+    text-align: center;
+}
+.pfp {
+    max-width:100%;
+    height: 200px;
+    aspect-ratio: cos(30deg);
+    clip-path: polygon(-50% 50%,50% 100%,150% 50%,50% 0);
+    justify-content: center;
+     display: flex;
+}
+
+.pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.upper_info{
+    display: flex;
+    justify-content: center;
+}
+
+.vertical-line {
+  width: 1px;
+  height: 130px;
+  background-color: #000000;
+  margin: 20px;
+} 
+
+.CONTACT {
+    text-align: right;
+    height: 150px;
+}
+
+.PORTFOLIO {
+    text-align: left;
+    height: 150px;
+}
+
+.EXPERIENCE {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  min-width: 220px;
+  text-align: right;
+  margin-right: 65px;
+}
+
+hr {
+    flex: 1;
+    border: none;
+    border-top: 2px solid #000;
+    margin: 0;
+    height: 0;
+}
+
+.experience {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.exp-title {
+  display: flex;
+  flex-direction: column;
+  min-width: 220px;
+  text-align: right;
+  margin-right: 50px;
+}
+
+.exp-title h4,
+.exp-title p {
+  margin-top: 0;
+  margin-bottom: 0.2em;
+}
+
+.exp-details h4 {
+  margin-top: 0;
+  margin-bottom: 0.3em;
+}
+
+.exp-details .description {
+  margin-top: 0;
+}
+
+.FREELANCE {
+  font-style: italic;
+  font-size: medium;
+}
+
+.EDUCATION {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.education {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.edu-title {
+  display: flex;
+  flex-direction: column;
+  min-width: 220px;
+  text-align: right;
+  margin-right: 50px;
+}
+
+.edu-title h4,
+.edu-title p {
+  margin-top: 0;
+  margin-bottom: 0.2em;
+}
+
+.edu-details h4 {
+  margin-top: 0;
+  margin-bottom: 0.3em;
+}
+
+.edu-details .description {
+  margin-top: 0;
+}
+
+.BATCH {
+  font-style: italic;
+  font-size: medium;
+}
+
+.HONORS {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.expertise {
+  display: flex;
+  flex-direction: column;
+  min-width: 220px;
+  text-align: right;
+  margin-right: 50px;
+}
+
+.expertise h4,
+.expertise p {
+  margin-top: 0;
+  margin-bottom: 0.2em;
+}
+
+
+
+.vertical-line2 h4 {
+  margin-top: 0;
+  margin-bottom: 0.3em;
+}
+
+.vertical-line2 .description {
+  margin-top: 0;
+}
+
+.vertical-line2{
+  width: 1px;
+  height: 165px;
+  background-color: #000000;
+  margin-left: 335px;
+  
+}
